@@ -5,5 +5,9 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
 }
-
+body{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to bottom right, #e3f0ff #fafcff);
+}
 
