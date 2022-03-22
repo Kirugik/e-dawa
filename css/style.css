@@ -76,6 +76,13 @@ form input[type="text"]:focus {
   color: #030303;
 }
   /* shop.html */
+
+.shop{
+  margin: 0px;
+  padding: 0px;
+  background: ;
+}
+
 .cart-container {
   background: linear-gradient(to bottom right, #e3f0ff, #fafcff);
   width: 70%;
