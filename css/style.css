@@ -6,6 +6,8 @@ body {
   font-size: 20px;
 }
 
+/* navbar styles */
+
 .navbar {
   background: #68020f;
 }
@@ -24,6 +26,10 @@ form input[type="text"] {
 
 form input[type="text"]:focus {
   outline: none;
+}
+
+.search-form button {
+  width: 50px;
 }
 
 .search-form button i {
@@ -52,6 +58,7 @@ form input[type="text"]:focus {
   color: #030303;
 }
 
+/* footer styles */
 .footer {
   position: absolute;
   bottom: 0;
