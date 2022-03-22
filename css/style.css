@@ -54,3 +54,11 @@ form input[type="text"]:focus {
 
 }
 
+
+.cart-container{
+  background: linear-gradient(to bottom right, #e3f0ff, #FAFCFF);
+  width: 70%;
+  height: 85%;
+  background-color: #ffffff;
+}
+
