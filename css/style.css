@@ -102,3 +102,13 @@ form input[type="text"]:focus {
   justify-content: space-between;
   align-items: center;
 }
+.heading{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2f3841;
+}
+.action{
+  font-size: 14px;
+  font-weight: 600;
+  color: #e44c4c;
+}
