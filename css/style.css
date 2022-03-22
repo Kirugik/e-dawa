@@ -3,11 +3,54 @@ body {
   margin: 0;
   padding: 0;
   font-family: "PT Sans", sans-serif;
-  font-size: 20px;
+  font-size: 2
 }
-body{
-  margin: 0px;
-  padding: 0px;
-  background: linear-gradient(to bottom right, #e3f0ff #fafcff);
+
+.navbar {
+  background: #68020f;
+}
+
+.search-form {
+  margin-right: 100px;
+}
+
+form input[type="text"] {
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  padding-left: 10px;
+  border: none;
+}
+
+form input[type="text"]:focus {
+  outline: none;
+}
+
+.search-form button i {
+  background-color: #68020f;
+  color: #fffffe;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-list li {
+  list-style: none;
+
+
+
+.nav-list li a {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #fffffe;
+}
+
+.nav-list li a:hover {
+  color: #030303;
+
 }
 
