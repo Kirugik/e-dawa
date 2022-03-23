@@ -454,22 +454,4 @@ body {
   color: #007bff;
   font-weight: bold;
 }
-.container .top{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 4rem;
-}
-.all-products .top select {
-  width: 20px;
-  padding: 1px;
-  border: 1px solid #ccc;
-  appearance: none;
-  outline: none;
-}
 
-@media only screen and (max-width: 768px) {
-  .all-products .top select {
-    width: 15rem;
-  }
-}
