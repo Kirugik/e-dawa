@@ -140,3 +140,30 @@ body {
   line-height: 1;
   text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
 }
+
+.btn {
+  display: inline-block;
+  padding: 1.2rem 4rem;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header .hero-img {
+    right: -20%;
+  }
+
+  .hero-content {
+    transform: translate(20%, -50%);
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content h1 span {
+    font-size: 5rem;
+  }
+}
