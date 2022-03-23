@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --white: #fff;
   --black: #222;
   --pink: #f60091;
@@ -7,7 +7,7 @@
   --grey-alt: #d1e2e9;
   --yellow: #ffd800;
   --green: #59b210;
-}
+} */
 
 *,
 *::before,
@@ -40,7 +40,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: var(--grey-alt);
+  background-color: #fbe0c3;
   overflow: hidden;
 }
 
@@ -76,15 +76,22 @@ body {
   width: 200px;
 }
 
+.logo img:hover {
+  cursor: pointer;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: 25px;
+  font-size: 20px;
+}
+.nav-list li a:hover {
+  color: #fbe0c3;
 }
 
 .nav-item:not(:last-child) {
-  margin-right: 0.5rem;
+  margin-right: 50px;
 }
 
 .nav-link:link,
@@ -98,10 +105,6 @@ body {
 }
 
 .top-nav {
-  display: none;
-}
-
-.hamburger {
   display: none;
 }
 
@@ -225,7 +228,7 @@ body {
   text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
 }
 
-.btn {
+.btn-success {
   display: inline-block;
   padding: 1.2rem 4rem;
   color: #fff;
@@ -303,28 +306,17 @@ body {
 }
 
 .title h1 {
-  font-size: 3rem;
+  font-size: 35px;
   display: inline-block;
   position: relative;
   z-index: 0;
-}
-
-.title h1::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -20%;
-  transform: translate(-50%, -50%);
-  background-color: var(--pink);
-  width: 50%;
-  height: 0.4rem;
-  z-index: 1;
 }
 
 .product-center {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem 3rem;
+  margin-top: 5px;
 }
 
 .product {
@@ -429,7 +421,9 @@ body {
 
 /* Footer */
 #contact {
-  background: #efefef;
+  /* background: #efefef; */
+  background: #d1e2e9;
+  margin-top: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
   color: #777;
@@ -439,20 +433,46 @@ body {
   padding: 15px;
 }
 
+.contact-form input,
+.contact-form textarea {
+  font-size: 20px;
+}
+
+.form-control {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
 ::placeholder {
   color: #999 !important;
+  font-size: 20px;
+}
+
+.contact-form button {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.contact-info {
+  position: relative;
+  top: -160px;
 }
 
 .follow {
   background: #fff;
-  padding: 10px;
+  font-size: 20px;
+  padding: 20px;
   margin: 15px;
 }
 
-.contact-info .fa {
-  margin: 10px;
-  color: #007bff;
-  font-weight: bold;
+.follow i {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.follow i:hover {
+  color: #ff7c9c;
 }
 .container .top{
   display: flex;
