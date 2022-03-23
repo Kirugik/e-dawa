@@ -105,3 +105,38 @@ body {
 .cart-icon {
   display: none;
 }
+
+/* Hero */
+.header .hero-img {
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+  height: 70rem;
+  object-fit: contain;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  transform: translate(25%, -50%);
+}
+
+.hero-content h2 {
+  color: #b888ff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-content .discount {
+  color: #fbb419;
+}
+
+.hero-content h1 span {
+  color: #253b70;
+  font-size: 6rem;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+  text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
+}
