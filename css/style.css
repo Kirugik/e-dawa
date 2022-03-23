@@ -58,6 +58,47 @@ form input[type="text"]:focus {
   color: #030303;
 }
 
+/* contact page */
+.contact-page {
+  margin-top: 88px;
+  height: 80vh;
+}
+
+form select {
+  width: 590px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+form select:focus {
+  outline: none;
+}
+
+#phone,
+#email-address {
+  width: 600px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+#first-name,
+#last-name {
+  width: 300px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+#text-area {
+  width: 500px;
+  height: 150px;
+  font-size: 20px;
+}
+#textarea-btn {
+  color: white;
+  font-size: 25px;
+  border: 1px solid white;
+}
+
 /* footer styles */
 .footer {
   position: absolute;

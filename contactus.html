@@ -33,32 +33,59 @@
         </div>
     </nav>
 
-    <div class="about" id="about">
-        <h1 class="text-center b-text" >CONTACT US</h1><br>
-        <h2>Contact Details</h2>
-        <p class="text-center m-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae delectus vel sunt eum. Voluptas 
-            accusamus aliquam iste, explicabo quasi enim eveniet cumque omnis asperiores, soluta debitis hic nulla ad dolore.
-        </p>
-        
-    </div>
-
-
-<!-- footer -->
-<nav class="footer">
-    <div class="container container d-flex flex-row justify-content-center align-items-center pt-3">
-        <div class="footer-info d-flex flex-column justify-content-center align-items-center">
-            <div class="socials py-1">
-                <a href="#"><i class="fa-brands fa-facebook px-3"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter px-3"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram px-3"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope px-3"></i></a>
-            </div>
-            <div class="copyright">
-                <p>Copyright <span>&copy</span>2022. e-Dawa. All Rights Reserved.</p>
+    <!-- Contact Us -->
+    <section class="contact-page">
+        <div class="container bg-success d-flex flex-column justify-content-center align-items-center w-50">
+            <h3 class="text-light p-4">Contact Us</h3>
+            <div class="contact d-flex flex-column justify-content-center align-items-center">
+                <form id="contact-form" class="d-flex flex-column justify-content-center align-items-center">
+                    <!-- Name, phone, and email input -->
+                    <div class="d-flex flex-column w-75 mx-auto">
+                        <div class="mb-3">
+                            <form class="topic-input p-4">
+                                <select name="Choose your topic">
+                                    <option value="enquiries">Choose your topic</option>
+                                    <option value="enquiries">Product enquiries</option>
+                                    <option value="deliveries">Deliveries</option>
+                                    <option value="prescriptions" selected>Prescriptions</option>
+                                    <option value="complains">Complain</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <input type="text" class="form-control mb-3 p-4" id="first-name" placeholder="First Name">
+                            <input type="text" class="form-control mb-3 p-4 mx-4" id="last-name" placeholder="Last Name">
+                        </div>
+                        <input type="text" class="form-control mb-3 p-4"  id="phone" placeholder="Mobile Number">
+                        <input type="email" class="form-control mb-3" id="email-address" placeholder="Email">
+                    </div>
+                    <!-- Message input -->
+                    <div class="form-group d-flex flex flex-column justify-content-center w-75 mt-3 mx-auto">
+                        <textarea class="form-control" id="text-area" placeholder="Message" rows="3"></textarea>
+                        <button type="submit" class="btn btn-lg w-50 m-3 mx-auto text-light" id="textarea-btn">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
-</nav>
+    </section>
+
+
+    <!-- footer -->
+    <nav class="footer">
+        <div class="container container d-flex flex-row justify-content-center align-items-center pt-3">
+            <div class="footer-info d-flex flex-column justify-content-center align-items-center">
+                <div class="socials py-1">
+                    <a href="#"><i class="fa-brands fa-facebook px-3"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter px-3"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram px-3"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope px-3"></i></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright <span>&copy</span>2022. e-Dawa. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </nav>
     
 </body>
 </html>
