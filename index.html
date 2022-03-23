@@ -12,10 +12,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/scripts.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <!-- Header -->
+  <!-- Header -->
   <header id="home" class="header">
     <!-- Navigation -->
     <nav class="nav fixed-top">
@@ -44,7 +44,7 @@
             </li>
             <li class="nav-item" style="color: white;">
               <a href="cart.html"  class="cart" class="nav-link icon"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a>
-          </li>
+            </li>
           </ul>
         </div>
 
@@ -134,24 +134,37 @@
     <div class="container">
       <h1 class="d-flex flex-row justify-content-center align-items-center text-primary">Contact Us</h1>
       <div class="row d-flex flex-row justify-content-center align-items-center">
+        <!-- displaying the contact message confirmation -->
+        <div id="message-sent">
+
+        </div>
+
+        <!-- contact form -->
         <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
           <form class="contact-form w-75">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" id="first-name" placeholder="First Name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Mobile number">
+              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="text" class="form-control" id="contact-num" placeholder="Mobile number">
             </div>
+            
             <div class="form-group">
-              <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+              <input type="email" class="form-control" id="contact-email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" id="text-area" rows="4" placeholder="Message"></textarea>
             </div>
           
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="submit" class="btn btn-primary" id="contactus-btn">Send Message</button>
           </form>
         </div>
+
+        <!-- social media links -->
         <div class="col-md-6 contact-info d-flex flex-row justify-content-center align-items-center">
           <div class="follow"><label><b>Also Find Us On <br> </b></label>
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -166,7 +179,6 @@
     </div>
   </section>
   <!-- End Footer -->
-    
 
 </body>
 </html>
