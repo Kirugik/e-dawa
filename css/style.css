@@ -475,7 +475,6 @@ body {
   color: #ff7c9c;
 }
 
-
 @media only screen and (max-width: 768px) {
   .all-products .top select {
     width: 15rem;
@@ -596,4 +595,3 @@ body {
 .checkout {
   width: 500px;
 }
-
