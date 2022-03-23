@@ -432,7 +432,7 @@ body {
   /* background: #efefef; */
   background: #d1e2e9;
   margin-top: 40px;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
   color: #777;
 }
@@ -441,7 +441,8 @@ body {
   padding: 15px;
 }
 
-.contact-form input {
+.contact-form input,
+.contact-form textarea {
   font-size: 20px;
 }
 
@@ -460,14 +461,23 @@ body {
   margin: 15px;
 }
 
+.contact-info {
+  position: relative;
+  top: -160px;
+}
+
 .follow {
   background: #fff;
-  padding: 10px;
+  font-size: 20px;
+  padding: 20px;
   margin: 15px;
 }
 
-.contact-info .fa {
-  margin: 10px;
-  color: #007bff;
-  font-weight: bold;
+.follow i {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.follow i:hover {
+  color: #ff7c9c;
 }
