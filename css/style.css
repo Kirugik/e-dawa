@@ -429,8 +429,10 @@ body {
 
 /* Footer */
 #contact {
-  background: #efefef;
-  padding-top: 40px;
+  /* background: #efefef; */
+  background: #d1e2e9;
+  margin-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
   color: #777;
 }
@@ -439,8 +441,23 @@ body {
   padding: 15px;
 }
 
+.contact-form input {
+  font-size: 20px;
+}
+
+.form-control {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
 ::placeholder {
   color: #999 !important;
+  font-size: 20px;
+}
+
+.contact-form button {
+  margin: 15px;
 }
 
 .follow {
