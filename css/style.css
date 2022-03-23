@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  background-image: url("../images/bg5.jpg");
+  background-image: url("../images/bg_img.jpg");
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -71,15 +71,16 @@ body {
   justify-content: space-between;
 }
 
-.logo h1 {
-  font-size: 2.5rem;
+.logo img {
+  /* font-size: 2.5rem; */
+  width: 200px;
 }
 
 .nav-list {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .nav-item:not(:last-child) {
@@ -215,10 +216,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.hero-content .discount {
-  color: #fbb419;
-}
-
 .hero-content h1 span {
   color: #253b70;
   font-size: 6rem;
@@ -232,8 +229,9 @@ body {
   display: inline-block;
   padding: 1.2rem 4rem;
   color: #fff;
+  font-size: 30px;
   font-weight: 600;
-  text-transform: uppercase;
+  border-radius: 15px;
   margin-top: 3rem;
 }
 
@@ -351,7 +349,8 @@ body {
 }
 
 .product-header img {
-  height: 100%;
+  height: 80%;
+  width: 250px;
 }
 
 .product-footer {
@@ -414,7 +413,7 @@ body {
 }
 
 .product-header .icons span:hover {
-  background-color: #ff7c9c;
+  background-color: #efefef;
   color: #fff;
 }
 
