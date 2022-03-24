@@ -14,6 +14,78 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
+    <nav style="background-color: #243a6f;" class="nav">
+        <div class="navigation container">
+            <div class="logo" style="color: white;">
+                <h1>E-Dawa</h1>
+            </div>
+
+            <div class="menu" style="color: white;">
+                <div class="top-nav">
+                    <div class="logo">
+                        <h1>E-Dawa</h1>
+                    </div>
+                    <div class="close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product1.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Log In</a>
+                    </li>
+                    
+                    
+                    <li class="nav-item" >
+                        <a href="cart.html"  class="cart" class="nav-link icon"><i class="bx bx-shopping-bag"></i><span>0</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="cart.html" class="cart-icon">
+                <i class="bx bx-shopping-bag"></i>
+            </a>
+
+            <div class="hamburger">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+    </nav>
+<div style="padding-top:50px; " class="container">
+    <form action="" method="POST" id="delivery-form">
+      <fieldset>
+        <legend>Delivery Address</legend>
+        <p class="input-wrapper lg-half">
+          <input type="text" name="delivery-first-name" id="delivery-first-name" required>
+          <label for="delivery-first-name">First Name</label>
+        </p>
+        <p class="input-wrapper lg-half">
+          <input type="text" name="delivery-last-name" id="delivery-last-name" required>
+          <label for="delivery-last-name">Last Name</label>
+        </p>
+        <p class="input-wrapper lg-half">
+          <input type="text" name="delivery-street-address" id="delivery-street-address" required>
+          <label for="delivery-phone-number">Phone Number</label>
+        </p>
+        <p class="input-wrapper lg-third">
+          <input type="text" name="delivery-location" id="delivery-location">
+          <label for="delivery-location">Location</label>
+        </p>
+        <p class="input-wrapper lg-third">
+          <input type="text" name="delivery-additional-information" id="delivery-additional-information">
+          <label for="additional-additional-information">Additional Information</label>
+        </p>
+      </fieldset>
+      <p class="submit-wrap"><button class="btn">Proceed To Pay &rarr;</button></p>
+    </form>
+  </div>
+
     
     
 </body>
