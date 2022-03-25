@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-dawa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,200&family=PT+Sans&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/index.js"></script>
+<head>
+  <meta charset="UTF-8" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="css/style.css" >
+  <title>e-Dawa</title>
 </head>
+
 <body>
   <!-- Header -->
   <header id="home" class="header">
     <!-- Navigation -->
-    <nav class="nav fixed-top">
+    <nav class="nav">
       <div class="navigation container">
         <div class="logo" >
-          <!-- <h1>E-Dawa</h1> -->
-          <img src="./images/logo.png" alt="Logo">
+          <h1>e-Dawa</h1>
         </div>
 
         <div class="menu">
           <div class="top-nav">
             <div class="logo">
-              <h1>E-Dawa</h1>
+              <h1>e-Dawa</h1>
             </div>
             <div class="close">
               <i class="bx bx-x"></i>
@@ -44,86 +49,101 @@
             </li>
             <li class="nav-item" style="color: white;">
               <a href="cart.html"  class="cart" class="nav-link icon"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a>
-            </li>
+          </li>
           </ul>
         </div>
 
         <a href="cart.html" class="cart-icon">
           <i class="bx bx-shopping-bag"></i>
         </a>
+
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
       </div>
     </nav>
 
     <!-- Hero -->
-    <img src="./images/home_img.jpg" alt="" class="hero-img" />
+    <img src="images/new-images/home_img.jpg" alt="" class="hero-img"/>
 
     <div class="hero-content">
       <h1>
-        <span>Bringing Medicine</span>
-        <span>To Your Door Step</span>
+        <span>Bringing Medications</span>
+        <span>To Your Doorstep</span>
       </h1>
-      <a class="btn btn-success" href="product1.html">See Our Products</a>
+      <a class="btn" href="product1.html">See Our Products</a>
     </div>
   </header>
 
-  <!-- Popular products -->
+  <!-- Main -->
+  <!-- Popular Products -->
   <section class="section featured">
     <div class="title">
       <h1>Popular Products</h1>
     </div>
 
     <div class="product-center container">
+      <!-- popular product 1 -->
       <div class="product">
         <div class="product-header">
-          <img src="images/popular1.jpeg" alt="">
+          <img src="images/new-images/product1.png" alt="">
           <ul class="icons">
-            
+
             <span><a class="add-cart cart9" href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
           </ul>
         </div>
         <div class="product-footer">
-            <h3>An antihistamine used to relieve symptoms of allergy, hay fever, and the common cold.
+          <a href="#">
+            <h3>Benylin Dry Cough 100ml</h3>
           </a>
-          <h4 class="price">Ksh.600</h4>
+
+          <h4 class="price">Ksh.810</h4>
         </div>
       </div>
-
+      <!-- popular product 2 -->
       <div class="product">
         <div class="product-header">
-          <img src="images/popular2.jpeg" alt="">
+          <img src="images/new-images/product2.jpeg" alt="">
           <ul class="icons">
             <span><a class="add-cart cart10" href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
-        </ul> 
+        </ul>
         </div>
         <div class="product-footer">
-          <h3>A man-made form of a natural substance (corticosteroid hormone) made by the adrenal gland. </h3>
-          <h4 class="price">Ksh.600</h4>
+          <a href="#"><h3>Prednisolone Oral Route</h3></a>
+
+          <h4 class="price">Ksh.550</h4>
         </div>
       </div>
-
+      <!-- popular product 3 -->
       <div class="product">
         <div class="product-header">
-          <img src="images/popular3.jpeg" alt="">
+          <img src="images/new-images/product3.jpeg" alt="">
           <ul class="icons">
+
             <span><a class="add-cart cart11" href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
-             </ul>
+              </ul>
         </div>
         <div class="product-footer">
-          <h3>Zefcolin Syrup 100ml is an efficient cough remedy for symptomatic relief of dry cough. </h3>
-          <h4 class="price">Ksh.900</h4>
+          <a href="#"><h3>Fluticasone Nasal Route</h3></a>
+
+          <h4 class="price">Ksh.740</h4>
         </div>
       </div>
-
+      <!-- popular product 4 -->
       <div class="product">
         <div class="product-header">
-          <img src="images/popular4.jpeg" alt="">
+          <img src="images/new-images/product4.jpeg" alt="">
+
           <ul class="icons">
+
             <span><a class="add-cart cart12" href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
+
           </ul>
         </div>
         <div class="product-footer">
-          <h3 >An antifungal medicine that is used to treat infections caused by fungus in the mouth, throat, and lungs.</h3>
-          <h4 class="price">Ksh.750</h4>
+          <a href="#"><h3 >Glyburide-Metformin HCL</h3></a>
+
+          <h4 class="price">Ksh.1220</h4>
         </div>
       </div>
     </div>
@@ -132,53 +152,44 @@
   <!-- Footer -->
   <section id="contact">
     <div class="container">
-      <h1 class="d-flex flex-row justify-content-center align-items-center text-primary">Contact Us</h1>
-      <div class="row d-flex flex-row justify-content-center align-items-center">
-        <!-- displaying the contact message confirmation -->
-        <div id="message-sent">
-
-        </div>
-
-        <!-- contact form -->
-        <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
-          <form class="contact-form w-75">
+      <h1 class="d-flex flex-row justify-content-center align-items-center mb-5">Contact Us</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <form class="contact-form">
             <div class="form-group">
-              <input type="text" class="form-control" id="first-name" placeholder="First Name">
+              <input type="text" class="form-control" placeholder="Name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+              <input type="text" class="form-control" placeholder="Mobile number">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="contact-num" placeholder="Mobile number">
+              <input type="email" class="form-control" placeholder="Email">
             </div>
-            
             <div class="form-group">
-              <input type="email" class="form-control" id="contact-email" placeholder="Email">
+              <textarea class="form-control" rows="4" placeholder="Message"></textarea>
             </div>
 
-            <div class="form-group">
-              <textarea class="form-control" id="text-area" rows="4" placeholder="Message"></textarea>
-            </div>
-          
-            <button type="submit" class="btn btn-primary" id="contactus-btn">Send Message</button>
+            <button type="submit" class="btn btn-primary">Send Message</button>
           </form>
         </div>
-
-        <!-- social media links -->
         <div class="col-md-6 contact-info d-flex flex-row justify-content-center align-items-center">
-          <div class="follow"><label><b>Also Find Us On <br> </b></label>
+          <div class="follow"><label><b>Also Find Us On</b></label>
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
             <a href="#"><i class="fa-solid fa-envelope"></i></a>
             <a href="#"><i class="fa-brands fa-google-plus"></i></a>
           </div>
         </div>
-        
       </div>
-  
     </div>
+
   </section>
   <!-- End Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+  <!-- Custom Script -->
+  <script src="js/index.js"></script>
+  <script src="js/indexp.js"></script>
 </body>
+
 </html>
